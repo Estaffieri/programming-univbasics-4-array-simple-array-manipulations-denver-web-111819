@@ -26,7 +26,7 @@ def using_concat(array,string)
   array.concat(string)
 end  
 
-def using_insert(array,element)
+def using_insert(array,new_element)
   new_element = shoes
   array.insert(-1,new_element)
   
