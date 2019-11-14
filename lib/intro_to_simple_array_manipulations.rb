@@ -23,7 +23,7 @@ array.shift(2)
 end
 
 def using_concat(array1,array2)
-   @all_my_favs = using_concat(@my_favorite_things, more_favs)
+   array1.concat (@my_favorite_things, more_favs)
 end  
 
 def using_insert(array)
