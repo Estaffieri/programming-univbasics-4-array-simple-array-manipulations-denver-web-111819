@@ -23,7 +23,7 @@ array.shift(2)
 end
 
 def using_concat(array)
-  array.concat[()]
+  array.concat
   
 end  
 
